@@ -19,4 +19,16 @@ property name: property value;
 
 */
 
+body{
+    color: rgb(10, 50, 40);
+    /* background-image: url(../HTML/assets/flower.jpg);
+    background-repeat: no-repeat;
+    background-position:  top right ;
+    background-attachment: fixed; */
+    background: red url(../HTML/assets/flower.jpg) no-repeat bottom left fixed;
+    
+}
+h1{
+    /* background-color: red;  */
 
+}
