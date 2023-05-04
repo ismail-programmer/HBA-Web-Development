@@ -19,10 +19,54 @@ property name: property value;
 
 */
 
-h1{
+.text {
+    border: 2px solid purple;
+    color: red;
+    background-color: yellow;
+    text-align: left;
+    /* text-align-last: left; */
 
 
-/* 
+
+
+
+
+}
+
+.p1 {
+    font-size: 32px;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 1;
+    word-spacing: 10px;
+    white-space: normal;
+    text-shadow: 5px 2px 0.2px green;
+}
+
+.price {
+    /* text-decoration-line : overline ;
+    text-decoration-color: green;
+    text-decoration-style: dashed ; */
+    text-decoration: underline purple solid 1px;
+
+
+
+
+}
+
+
+
+
+
+
+
+h2 {
+
+
+    /* 
 font-family: 'Dancing Script', cursive;
 
 */
@@ -30,14 +74,14 @@ font-family: 'Dancing Script', cursive;
 
 
 
-/* 
+    /* 
     font-family: 'Dancing Script', cursive;   
      font-style: oblique;
     font-weight: 900;
     font-variant: small-caps; */
     /* font-size: 15vw; */
 
-font: italic bold 32px 'Dancing Script', cursive;    
+    /* font: italic bold 32px 'Dancing Script', cursive; */
 
 
 
@@ -47,16 +91,17 @@ font: italic bold 32px 'Dancing Script', cursive;
 
 
 
-    color: rgb(10, 50, 40);
+    /* color: rgb(10, 50, 40); */
     /* background-image: url(../HTML/assets/flower.jpg);
     background-repeat: no-repeat;
     background-position:  top right ;
     background-attachment: fixed; */
     /* background: red url(../HTML/assets/flower.jpg) no-repeat bottom left scroll; */
-    
+
 }
-h2{
+
+h2 {
     /* background-color: red;  */
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
