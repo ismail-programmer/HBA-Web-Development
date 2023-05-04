@@ -58,6 +58,34 @@ property name: property value;
 }
 
 
+.margin{
+
+    border: 2px solid;
+    width: 200px;
+/* margin-top: 50px;
+margin-right: 40px;
+margin-left: 40px;
+margin-bottom: 40px; */
+
+margin: 100px 50px 34px 45px; 
+/* above is for top , right , bottom and left */
+margin: 100px 45px;
+/* above is for top and bottom, left and right */
+margin: 50px auto;
+/* above is for top and bottom left and right */
+
+padding: 20px;
+
+
+
+
+
+
+
+
+}
+
+
 
 
 
