@@ -1,0 +1,38 @@
+/* container */
+.flexbox {
+    background-color: grey;
+    border: 2px solid red;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row ; */
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    align-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+/* items */
+.flexbox-item {
+    border: 1px solid black;
+    width: 60px;
+    height: 30px;
+    flex-shrink: 1;
+
+
+
+
+
+
+
+
+
+}
