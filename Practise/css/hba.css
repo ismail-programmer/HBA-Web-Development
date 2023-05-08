@@ -20,13 +20,20 @@ property name: property value;
 */
 
 .text {
-    border: 2px solid purple;
+    border: 2px solid red;
+    /* border-style: dotted double ;
+    border-width: 5px; */
     color: red;
     background-color: yellow;
     text-align: left;
     /* text-align-last: left; */
+    border-radius: 20px;
+    /* outline: 5px solid green; */
+    outline-offset: 50px;
 
 }
+
+
 
 .widthHeight {
     border: 2px solid;
@@ -43,6 +50,11 @@ property name: property value;
     filter: brightness(150%);
 
 
+
+}
+
+#img1:hover {
+    opacity: 0.4;
 
 }
 
@@ -79,7 +91,9 @@ property name: property value;
 
 
 .margin {
-
+    opacity: 0.5;
+    outline: 5px solid green;
+    outline-offset: 100px;
     border: 2px solid;
     width: 200px;
     /* margin-top: 50px;
